@@ -154,7 +154,7 @@ public:
         cout << "[1] -- Baby --\n";
         cout << "The Bot plays randomly (because babies don't know how to play Tic Tac Toe, duh).\n\n";
         cout << "[2] -- Easy --\n";
-        cout << "The Bot knows how to block your wins and take its chances..., but nothing else.\n\n";
+        cout << "The Bot plays passively.\n\n";
         cout << "[3] -- Normal --\n";
         cout << "The Bot plays decently, though it makes mistakes sometimes.\n\n";
         cout << "[4] -- Hard --\n";
@@ -625,14 +625,10 @@ private:
         {"Loading", 56},
         {"Getting resources", 10},
         {"Please wait", 10},
-        {"Making you wait for eternity", 5},
+        {"Making you wait for eternity", 9},
         {"Playing animation that wastes your time", 5},
         {"Getting snacks", 5},
         {"Doing something", 5},
-        {"You are being watched", 1},
-        {"Not going to give you up", 1},
-        {"Not going to let you down", 1},
-        {"Not going to run around and dessert you", 1},
     };
 
     const vector<pair<string,int>> botIsThinkingText = {
@@ -648,9 +644,7 @@ private:
         {"Quitting", 21},
         {"See you later", 15},
         {"Goodbye", 15},
-        {"Stay safe", 5},
-        {"Why are you leaving", 1},
-        {"Please come back", 1},
+        {"Stay safe", 7},
     };
 
     int botDifficulty;
